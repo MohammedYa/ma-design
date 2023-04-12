@@ -1,0 +1,287 @@
+.home{
+    width: 100%;
+    inset: 0;
+    background-image: url('../../assets/img/5/bg.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+    .layer{
+    /* position: absolute; */
+    inset: 0;
+    background-color: rgba(0, 0, 0, .80);
+    height: 100% ;
+    width: 100%;
+    
+    }
+    .main-home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    }
+    .main-home h1 {
+    
+    
+    position: absolute;
+    width: 477px;
+    height: 38px;
+    left: 792px;
+    top: 427px;
+    
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    }
+    
+    .main-home h6 {
+    
+    position: absolute;
+    
+    left: 792px;
+    top: 479px;
+    
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    
+    color: rgba(255, 255, 255, 0.89);
+    }
+    .test::after{
+    content: " A brand you can trust";
+    animation-name: typing;
+    animation-duration: 7s;
+    animation-iteration-count: unset;
+    }
+    @keyframes typing{
+    0%{content:"A|"}
+    2%{content:"A b|"}
+    4%{content:"A br|"}
+    6%{content:"A bra|"}
+    8%{content:"A bran|"}
+    10%{content:"A brand|"}
+    12%{content:"A brand y|"}
+    14%{content:"A brand yo|"}
+    16%{content:"A brand you|"}
+    18%{content:"A brand you c|"}
+    20%{content:"A brand you ca|"}
+    22%{content:"A brand you can|"}
+    24%{content:"A brand you can t|"}
+    26%{content:"A brand you can tr|"}
+    26%{content:"A brand you can tru|"}
+    28%{content:"A brand you can trus|"}
+    30%{content:"A brand you can trust|"}
+    32%{content:"A brand you can trust|"}
+    
+    
+    }
+    .test::before{
+    content: "";
+    width: 140px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    }
+    .showClollect{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    position: absolute;
+    left: 792px;
+    top: 561px;
+    
+    }
+    .show{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    
+    }
+    .show>i {
+    padding-left: 5px;
+    }
+    
+    
+    /* start section video*/
+    
+    .myVideo{
+    position: absolute;
+    width: 1350px;
+    height: 700px;
+    left: -14px;
+    top: 3px;
+    
+    
+    }
+    
+    .Msg {
+    width: 50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(214, 161, 82, 1);
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+    background-color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .5s;
+    }
+    .viaMsg{
+    font-size: 18px;
+    line-height: 1;
+    color: #000;
+    display: none;
+    }
+    .Msg:hover{
+    
+    width: 115px;
+    height: 115px;
+    border-radius: 74.5px 0px 74.5px 74.5px;
+    
+    }
+    .Msg:hover .viaMsg{
+    display: flex;
+    }
+    .fa-whatsapp{
+    font-size: 2.5rem !important;
+    }
+    .MsgContent{
+    text-decoration: none;
+    }
+    .sendMsg{
+    color: #D6A152;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    .main-home h1 {
+    width: auto;
+    font-size: 40px;
+    left: 280px;
+    
+    }
+    .main-home h6 {
+        
+        position: absolute;
+    
+        left: 280px;
+        top: 490px;
+    }
+    .main-home img {
+    
+        position: absolute;
+        width: 858px;
+        height: 660px;
+        /* left: -14px; */
+        top: 3px;
+        
+    }
+    .under-line{
+    top: 53%;
+    }
+    .showClollect{
+        left:280px;
+    }
+    
+    
+    }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .main-home h1 {
+    
+    left: 145px;
+    top: 340px;
+    }
+    .main-home h6 {
+        
+        position: absolute;
+    
+        left: 145px;
+        top: 52%;
+    }
+    .main-home img{
+        width: 680px;
+        height: 638px;
+        top: 3px;
+    }
+    .under-line{
+    top: 53%;
+    }
+    .showClollect{
+        left: 145px;
+        top: 435px;
+    
+    }
+    
+    }
+    @media screen and (min-width: 390px) and (max-width: 768px) {
+    .home{
+        overflow: hidden;
+        width: 100%;
+    }
+    .main-home{
+        height: 93vh;
+    }
+    .main-home img{
+        position: absolute;
+        width: 370px;
+        height: 746px;
+        /* left: -14px; */
+        top: 3px;
+    
+    }
+    .main-home h1 {
+    font-size: 19px;
+    left: 30%;
+    top: 62%;
+    }
+    .main-home h6 {
+    left: 30%;
+    top: 66%;
+    font-size: 26px;
+    }
+    .showClollect{
+        left: 30%;
+        top: 73%;
+    }
+    .main-home a {
+    top: 65%;
+    left: 30%;
+    }
+    .Msg{
+        bottom: 1%;
+        right: 2%;
+    }
+}
+    

@@ -1,0 +1,69 @@
+.secCollection{
+    display: grid;
+    gap: 90px; 
+   background-color: rgba(0, 0, 0, 0.96);
+  
+   }
+  
+  .collection h1
+  {
+       
+      margin-top: 2%;
+     text-align: center;
+      
+      font-family: 'Inter';
+       font-weight: 700;
+      font-size: 50px;
+      line-height: 61px; 
+      color: #fff;
+  }
+  
+  .row
+  {
+      padding: 0;
+      margin: 0;
+      left: 0;
+      right: 0;  
+      top: 0;
+      bottom: 0;
+  }
+   .vertical-line
+   {
+       position: absolute;
+      width: 80%;
+      height: 3px;
+      background-image: linear-gradient(270.44deg, rgba(255, 255, 255, 0) 15.24%, #FFFFFF 74.26%);
+  
+      transform: rotate(90deg);
+  
+      left: 9%;
+      top: 106%;
+   }
+  .collection-video 
+  {
+      top: 25%;
+      left: 7%;
+      margin: auto;
+       
+  }
+  
+  .collection-video img 
+  {    height: 90%;
+      margin: 10px;
+      width: 90%; 
+  
+  border: 1px solid ;
+  
+  border-image:  linear-gradient(180deg, #D6A152 0%, rgba(214, 161, 82, 0) 100%);
+  border-image-slice: 1;
+  
+   
+   
+  
+   }
+  .item
+  {
+          height: 100%;
+           
+  
+  }
