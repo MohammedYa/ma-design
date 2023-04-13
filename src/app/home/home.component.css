@@ -25,10 +25,10 @@
     position: absolute;
     width: 477px;
     height: 38px;
-    left: 792px;
+    left: 935px;
     top: 427px;
     
-    font-family: 'Poppins',sans-serif;
+    /* font-family: 'Poppins'; */
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -40,7 +40,7 @@
     
     position: absolute;
     
-    left: 792px;
+    left: 935px;
     top: 479px;
     
     font-family: 'Yeseva One';
@@ -51,6 +51,8 @@
     
     color: rgba(255, 255, 255, 0.89);
     }
+
+
     .test::after{
     content: " A brand you can trust";
     animation-name: typing;
@@ -59,23 +61,23 @@
     }
     @keyframes typing{
     0%{content:"A|"}
-    2%{content:"A b|"}
-    4%{content:"A br|"}
-    6%{content:"A bra|"}
-    8%{content:"A bran|"}
-    10%{content:"A brand|"}
-    12%{content:"A brand y|"}
-    14%{content:"A brand yo|"}
-    16%{content:"A brand you|"}
-    18%{content:"A brand you c|"}
-    20%{content:"A brand you ca|"}
-    22%{content:"A brand you can|"}
-    24%{content:"A brand you can t|"}
-    26%{content:"A brand you can tr|"}
-    26%{content:"A brand you can tru|"}
-    28%{content:"A brand you can trus|"}
-    30%{content:"A brand you can trust|"}
-    32%{content:"A brand you can trust|"}
+    4%{content:"A b|"}
+    8%{content:"A br|"}
+    12%{content:"A bra|"}
+    16%{content:"A bran|"}
+    20%{content:"A brand|"}
+    24%{content:"A brand y|"}
+    28%{content:"A brand yo|"}
+    32%{content:"A brand you|"}
+    36%{content:"A brand you c|"}
+    40%{content:"A brand you ca|"}
+    44%{content:"A brand you can|"}
+    48%{content:"A brand you can t|"}
+    52%{content:"A brand you can tr|"}
+    56%{content:"A brand you can tru|"}
+    60%{content:"A brand you can trus|"}
+    64%{content:"A brand you can trust|"}
+    68%{content:"A brand you can trust|"}
     
     
     }
@@ -87,17 +89,22 @@
     position: absolute;
     top: 100%;
     left: 0%;
+    margin-top: 10px;
+    
     }
+    
     .showClollect{
     text-decoration: none;
     color: #000;
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 10px 1px;
     border-radius: 20px;
     font-weight: 500;
-    position: absolute;
-    left: 792px;
+    position: relative;
+    left: 935px;
     top: 561px;
+    width: 240px;
+    overflow: hidden;
     
     }
     .show{
@@ -106,25 +113,59 @@
     background-color: #fff;
     padding: 10px 20px;
     border-radius: 20px;
-    font-weight: 500;
-    
-    }
-    .show>i {
-    padding-left: 5px;
+     
+      
     }
     
+    .show span 
+    {
+        font-weight: 600;
+     }
+    .show>i ,  .layer-button>i 
+    
+     {
+    padding-left: 10px;
+    }
+    
+    .layer-button 
+    {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        border-radius: 20px;
+        position: absolute;
+        top: 0;
+        color: #fff;
+        left: -100%;
+        transition: all .7s;
+        font-weight: 600;
+        padding: 10px 20px;
+    
+    
+     }
+    
+    .showClollect:hover .layer-button
+    {
+        background-color:  #D6A152;
+        visibility: visible;
+         left: 0;
+    }
+    
+     
     
     /* start section video*/
     
     .myVideo{
     position: absolute;
     width: 1350px;
-    height: 700px;
+    height: 699px;
     left: -14px;
     top: 3px;
     
     
     }
+    
     
     .Msg {
     width: 50px;
@@ -135,7 +176,7 @@
     color: rgba(214, 161, 82, 1);
     position: absolute;
     bottom: 5%;
-    right: 1%;
+    right:4%;
     background-color: #fff;
     font-size: 30px;
     border-radius: 50%;
@@ -179,109 +220,269 @@
     
     
     
+    /***************** media query *******************/
     
+        /***************** Screen 1590px to 1250px  *******************/
+
+
+    @media screen and (min-width: 1250px) and (max-width: 1590px) {
     
+        .main-home h1 {
+              width: 490px;
+             left: 740px;
+             
+             font-size: 35px;
+              }
+              .main-home h6 {
     
-    
-    @media screen and (min-width: 992px) and (max-width: 1200px) {
-    
-    .main-home h1 {
-    width: auto;
-    font-size: 40px;
-    left: 280px;
-    
-    }
-    .main-home h6 {
+                 
+                left: 740px;
+                 
+                 
+                 }
+            
+        .under-line{
+        top: 53%;
+        }
+        .showClollect{
+            
+           
+            left: 740px;
+
+             
+            }
+
+        .myVideo{
+            position: absolute;
+            width: 1240px;
+             left: -14px;
+         }        
         
-        position: absolute;
-    
-        left: 280px;
-        top: 490px;
-    }
-    .main-home img {
-    
-        position: absolute;
-        width: 858px;
-        height: 660px;
-        /* left: -14px; */
-        top: 3px;
         
-    }
-    .under-line{
-    top: 53%;
-    }
-    .showClollect{
-        left:280px;
-    }
-    
-    
-    }
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-    
-    .main-home h1 {
-    
-    left: 145px;
-    top: 340px;
-    }
-    .main-home h6 {
         
-        position: absolute;
+        }
+
+
+      /***************** Screen 1250px to 1090px  *******************/
+
     
-        left: 145px;
-        top: 52%;
-    }
-    .main-home img{
-        width: 680px;
-        height: 638px;
-        top: 3px;
-    }
-    .under-line{
-    top: 53%;
-    }
-    .showClollect{
-        left: 145px;
-        top: 435px;
+      @media screen and (min-width: 1090px) and (max-width: 1250px) {
     
-    }
+        .main-home h1 {
+              width: 490px;
+             left: 740px;
+             
+             font-size: 35px;
+              }
+              .main-home h6 {
     
-    }
-    @media screen and (min-width: 390px) and (max-width: 768px) {
-    .home{
-        overflow: hidden;
-        width: 100%;
-    }
-    .main-home{
-        height: 93vh;
-    }
-    .main-home img{
-        position: absolute;
-        width: 370px;
-        height: 746px;
-        /* left: -14px; */
-        top: 3px;
+                 left: 720px;
+                   
+                font-size: 25px;                 
+                 
+                 }
+
+                 .main-home h1 {
+                    width: 360px;
+                   left: 720px;
+ 
+                   font-size: 25px;
+                    }
+            
+        .under-line{
+        top: 53%;
+        }
+        .showClollect{
+            
+                left: 720px;
+            }
+
+        .myVideo{
+            position: absolute;
+            width: 1100px;
+             left: -14px;
+         }        
+        
+        
+        
+        }
+
+
+        
+      /***************** Screen 1250px to 1090px  *******************/
+
     
-    }
-    .main-home h1 {
-    font-size: 19px;
-    left: 30%;
-    top: 62%;
-    }
-    .main-home h6 {
-    left: 30%;
-    top: 66%;
-    font-size: 26px;
-    }
-    .showClollect{
-        left: 30%;
-        top: 73%;
-    }
-    .main-home a {
-    top: 65%;
-    left: 30%;
-    }
-    .Msg{
-        bottom: 1%;
-        right: 2%;
-    }
-}
+      @media screen and (min-width: 970px ) and (max-width: 1090px) {
+    
+              .main-home h6 {
+    
+                left: 610px;                   
+                font-size: 25px;                 
+                 
+                 }
+
+                 .main-home h1 {
+                    width: 360px;
+                   left: 610px;
+ 
+                   font-size: 25px;
+                    }
+            
+        
+                    .under-line{
+                        top: 53%;
+                    }
+
+
+        
+                    .showClollect{
+                left: 610px;
+            
+            }
+
+        .myVideo{
+             width: 900px;
+             left: -14px;
+         }        
+        
+        
+        
+        }
+
+ 
+              /***************** Screen 970px to 760px  *******************/
+
+        @media screen and (min-width:760px ) and (max-width: 970px) {
+    
+            .main-home h6 {
+  
+                left: 585px;
+                font-size: 22px;                 
+                top: 420px;
+
+               }
+
+               .main-home h1 {
+                  width: 290px;
+                 left: 585px;
+                  font-size: 20px;
+                 top: 380px;
+
+                  }
+          
+      
+                  .under-line{
+                      top: 53%;
+                  }
+
+
+      
+                  .showClollect{
+                    left: 585px;
+                    top: 485px;
+          
+          }
+
+      .myVideo{
+           width: 870px;
+           left: -14px;
+       }        
+      
+      
+      
+      }
+
+                   /***************** Screen 970px to 760px  *******************/
+
+                   @media screen and (min-width:768px ) and (max-width: 875px) {
+    
+                    .main-home h1 {
+                        width: 210px;
+                       left: 550px;
+                        font-size: 15px;
+                       top: 250px;
+                         }
+                
+                    .main-home h6 {
+          
+                        left: 550px;
+                        font-size: 22px;                 
+                        top: 290px;
+        
+                       }
+        
+              
+                          .under-line{
+                              top: 53%;
+                          }
+        
+        
+              
+                          .showClollect{
+                            left: 550px;
+                            top: 360px;
+                  
+                         
+                            padding: 5px 5px;
+                         
+                            width: 225px;
+                            font-size: 15px;
+                   }
+        
+              .myVideo{
+                   width: 770px;
+                   left: -14px;
+               }        
+              
+              
+              
+              }
+             
+                                /***************** Screen  760px  *******************/
+
+             
+              @media screen  and (max-width: 775px) {
+    
+                .main-home h1 {
+                    width: 210px;
+                   left: 550px;
+                    font-size: 15px;
+                   top: 250px;
+                     }
+            
+                .main-home h6 {
+      
+                    left: 550px;
+                    font-size: 22px;                 
+                    top: 290px;
+    
+                   }
+    
+          
+                      .under-line{
+                          top: 53%;
+                      }
+    
+    
+          
+                      .showClollect{
+                        left: 550px;
+                        top: 360px;
+              
+                     
+                        padding: 5px 5px;
+                     
+                        width: 225px;
+                        font-size: 15px;
+               }
+    
+          .myVideo{
+               width: 100%;
+               left: -14px;
+               height: auto;
+           }        
+          
+          
+          
+          }
     
