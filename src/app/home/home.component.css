@@ -152,8 +152,6 @@
          left: 0;
     }
     
-     
-    
     /* start section video*/
     
     .myVideo{
@@ -165,7 +163,6 @@
     
     
     }
-    
     
     .Msg {
     width: 50px;
@@ -214,12 +211,6 @@
     
     
     
-    
-    
-    
-    
-    
-    
     /***************** media query *******************/
     
         /***************** Screen 1590px to 1250px  *******************/
@@ -228,18 +219,16 @@
     @media screen and (min-width: 1250px) and (max-width: 1590px) {
     
         .main-home h1 {
-              width: 490px;
-             left: 740px;
-             
-             font-size: 35px;
+              width: 390px;
+             left: 860px;
+             top: 345px;
+             font-size: 27px;
+               }
+              .main-home h6
+               {
+                left: 860px;
+                top: 400px;
               }
-              .main-home h6 {
-    
-                 
-                left: 740px;
-                 
-                 
-                 }
             
         .under-line{
         top: 53%;
@@ -247,15 +236,17 @@
         .showClollect{
             
            
-            left: 740px;
+            left: 860px;
 
-             
+            top: 480px;
+
             }
 
         .myVideo{
             position: absolute;
             width: 1240px;
              left: -14px;
+             height: 650px;
          }        
         
         
@@ -269,39 +260,33 @@
       @media screen and (min-width: 1090px) and (max-width: 1250px) {
     
         .main-home h1 {
-              width: 490px;
-             left: 740px;
-             
-             font-size: 35px;
-              }
-              .main-home h6 {
-    
-                 left: 720px;
-                   
-                font-size: 25px;                 
-                 
-                 }
-
-                 .main-home h1 {
-                    width: 360px;
-                   left: 720px;
- 
-                   font-size: 25px;
-                    }
-            
+            width: 345px;
+           left: 745px;
+           top: 375px;
+           font-size: 25px;
+             }
+            .main-home h6
+             {
+              left: 750px;
+              top: 430px;
+            }
+          
+                
         .under-line{
         top: 53%;
         }
-        .showClollect{
-            
-                left: 720px;
-            }
+        .showClollect
+        {
+                left: 750px;
+                top: 500px;
+        }
 
-        .myVideo{
-            position: absolute;
-            width: 1100px;
-             left: -14px;
-         }        
+        .myVideo
+        {
+             width: 1100px;
+            height: 650px;
+
+        }        
         
         
         
@@ -314,36 +299,35 @@
     
       @media screen and (min-width: 970px ) and (max-width: 1090px) {
     
-              .main-home h6 {
-    
-                left: 610px;                   
-                font-size: 25px;                 
-                 
-                 }
-
-                 .main-home h1 {
-                    width: 360px;
-                   left: 610px;
- 
-                   font-size: 25px;
-                    }
-            
-        
-                    .under-line{
-                        top: 53%;
-                    }
-
-
-        
-                    .showClollect{
-                left: 610px;
-            
+        .main-home h1 {
+            width: auto;
+           left: 660px;
+           top: 375px;
+           font-size: 23px;
+              }
+            .main-home h6
+             {
+              left: 660px;
+              top: 420px;
             }
+          
+                
+        .under-line{
+        top: 53%;
+        }
+        .showClollect
+        {
+                left: 660px;
 
-        .myVideo{
-             width: 900px;
-             left: -14px;
-         }        
+                top: 490px;
+        }
+
+        .myVideo
+        {
+             width: 980px;
+            height: 630px;
+
+        }        
         
         
         
@@ -352,7 +336,7 @@
  
               /***************** Screen 970px to 760px  *******************/
 
-        @media screen and (min-width:760px ) and (max-width: 970px) {
+        @media screen and (min-width: 875px ) and (max-width: 970px) {
     
             .main-home h6 {
   
@@ -394,46 +378,39 @@
 
                    /***************** Screen 970px to 760px  *******************/
 
-                   @media screen and (min-width:768px ) and (max-width: 875px) {
-    
+                   @media screen and (min-width:780px ) and (max-width: 875px) {
+         
                     .main-home h1 {
-                        width: 210px;
-                       left: 550px;
-                        font-size: 15px;
-                       top: 250px;
-                         }
-                
-                    .main-home h6 {
-          
-                        left: 550px;
-                        font-size: 22px;                 
-                        top: 290px;
-        
-                       }
-        
-              
-                          .under-line{
-                              top: 53%;
+                        width: auto;
+                       left: 500px;
+                       top: 375px;
+                       font-size: 20px;
                           }
-        
-        
-              
-                          .showClollect{
-                            left: 550px;
-                            top: 360px;
-                  
-                         
-                            padding: 5px 5px;
-                         
-                            width: 225px;
-                            font-size: 15px;
-                   }
-        
-              .myVideo{
-                   width: 770px;
-                   left: -14px;
-               }        
-              
+                        .main-home h6
+                         {
+                          left: 500px;
+                          top: 420px;
+                        }
+                      
+                            
+                    .under-line{
+                    top: 53%;
+                    }
+                    .showClollect
+                    {
+                            left: 500px;
+            
+                            top: 490px;
+                    }
+            
+                    .myVideo
+                    {
+                         width: 800px;
+                        height: 630px;
+            
+                    }        
+                    
+                    
               
               
               }
@@ -441,7 +418,7 @@
                                 /***************** Screen  760px  *******************/
 
              
-              @media screen  and (max-width: 775px) {
+              @media screen  and (max-width: 780px) {
     
                 .main-home h1 {
                     width: 210px;
