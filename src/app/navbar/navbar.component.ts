@@ -13,12 +13,12 @@ export class NavbarComponent implements OnInit {
 
 
     $("#list").click(function(){
-      $("#list").hide(1000);
-      $("#sections").animate({"left":currnetLeft},1000);
+      $("#list").hide(100);
+      $("#sections").animate({"left":currnetLeft},600);
      
     })
     $("#close").click(function(){  
-      $("#sections").animate({"left":Left },1000);
+      $("#sections").animate({"left":Left },600);
 
       $("#list").show(1000);
 
