@@ -1,465 +1,462 @@
+ @import url('https://fonts.googleapis.com/css2?family=Changa&family=Inter:wght@700&family=Poppins:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Changa&family=Inter:wght@700&family=Poppins:wght@700&family=Yeseva+One&display=swap');
 .home{
-    width: 100%;
-    inset: 0;
-    background-image: url('../../assets/img/5/bg.jpg');
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    }
-    .layer{
-    /* position: absolute; */
-    inset: 0;
-    background-color: rgba(0, 0, 0, .80);
-    height: 100% ;
-    width: 100%;
-    
-    }
-    .main-home{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    }
-    .main-home h1 {
-    
-    
-    position: absolute;
-    width: 477px;
-    height: 38px;
-    left: 935px;
-    top: 427px;
-    
-    /* font-family: 'Poppins'; */
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 40px;
-    color: #fff;
-    }
-    
-    .main-home h6 {
-    
-    position: absolute;
-    
-    left: 935px;
-    top: 479px;
-    
-    font-family: 'Yeseva One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
-    
-    color: rgba(255, 255, 255, 0.89);
-    }
+width: 100%;
+inset: 0;
+background-image: url('../../assets/img/5/bg.jpg');
+position: relative;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.layer{
+/* position: absolute; */
+inset: 0;
+background-color: rgba(0, 0, 0, .80);
+height: 100% ;
+width: 100%;
+
+}
+.main-home{
+width: 100%;
+height: 100vh;
+position: relative;
+}
+.main-home h1 {
 
 
-    .test::after{
-    content: " A brand you can trust";
-    animation-name: typing;
-    animation-duration: 7s;
-    animation-iteration-count: unset;
-    }
-    @keyframes typing{
-    0%{content:"A|"}
-    4%{content:"A b|"}
-    8%{content:"A br|"}
-    12%{content:"A bra|"}
-    16%{content:"A bran|"}
-    20%{content:"A brand|"}
-    24%{content:"A brand y|"}
-    28%{content:"A brand yo|"}
-    32%{content:"A brand you|"}
-    36%{content:"A brand you c|"}
-    40%{content:"A brand you ca|"}
-    44%{content:"A brand you can|"}
-    48%{content:"A brand you can t|"}
-    52%{content:"A brand you can tr|"}
-    56%{content:"A brand you can tru|"}
-    60%{content:"A brand you can trus|"}
-    64%{content:"A brand you can trust|"}
-    68%{content:"A brand you can trust|"}
-    
-    
-    }
-    .test::before{
-    content: "";
-    width: 140px;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    top: 100%;
-    left: 0%;
-    margin-top: 10px;
-    
-    }
-    
-    .showClollect{
-    text-decoration: none;
-    color: #000;
-    background-color: #fff;
-    padding: 10px 1px;
-    border-radius: 20px;
-    font-weight: 500;
-    position: relative;
-    left: 935px;
-    top: 561px;
-    width: 240px;
-    overflow: hidden;
-    
-    }
-    .show{
-    text-decoration: none;
-    color: #000;
-    background-color: #fff;
-    padding: 10px 20px;
-    border-radius: 20px;
-     
-      
-    }
-    
-    .show span 
-    {
-        font-weight: 600;
-     }
-    .show>i ,  .layer-button>i 
-    
-     {
-    padding-left: 10px;
-    }
-    
-    .layer-button 
-    {
-        background-color: rgba(0, 0, 0, 0.6);
-        width: 100%;
-        height: 100%;
-        visibility: hidden;
-        border-radius: 20px;
-        position: absolute;
-        top: 0;
-        color: #fff;
-        left: -100%;
-        transition: all .7s;
-        font-weight: 600;
-        padding: 10px 20px;
-    
-    
-     }
-    
-    .showClollect:hover .layer-button
-    {
-        background-color:  #D6A152;
-        visibility: visible;
-         left: 0;
-    }
-    
-    /* start section video*/
-    
-    .myVideo{
-    position: absolute;
-    width: 1350px;
-    height: 699px;
-    left: -14px;
-    top: 3px;
-    
-    
-    }
-    
-    .Msg {
-    width: 50px;
-    height:50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(214, 161, 82, 1);
-    position: absolute;
-    bottom: 5%;
-    right:4%;
-    background-color: #fff;
-    font-size: 30px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: all .5s;
-    }
-    .viaMsg{
-    font-size: 18px;
-    line-height: 1;
-    color: #000;
-    display: none;
-    }
-    .Msg:hover{
-    
-    width: 115px;
-    height: 115px;
-    border-radius: 74.5px 0px 74.5px 74.5px;
-    
-    }
-    .Msg:hover .viaMsg{
-    display: flex;
-    }
-    .fa-whatsapp{
-    font-size: 2.5rem !important;
-    }
-    .MsgContent{
-    text-decoration: none;
-    }
-    .sendMsg{
-    color: #D6A152;
-    }
-    
-    
-    
-    
-    
-    
-    /***************** media query *******************/
-    
-        /***************** Screen 1590px to 1250px  *******************/
+position: absolute;
+width: 477px;
+height: 38px;
+left: 935px;
+top: 427px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+color: #fff;
+}
+
+.main-home h6 {
+
+position: absolute;
+
+left: 935px;
+top: 479px;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: rgba(255, 255, 255, 0.89);
+}
 
 
-    @media screen and (min-width: 1250px) and (max-width: 1590px) {
-    
-        .main-home h1 {
-              width: 390px;
-             left: 860px;
-             top: 345px;
-             font-size: 27px;
-               }
-              .main-home h6
-               {
-                left: 860px;
-                top: 400px;
-              }
-            
-        .under-line{
-        top: 53%;
-        }
-        .showClollect{
-            
-           
-            left: 860px;
-
-            top: 480px;
-
-            }
-
-        .myVideo{
-            position: absolute;
-            width: 1240px;
-             left: -14px;
-             height: 650px;
-         }        
-        
-        
-        
-        }
+.test::after{
+content: " A brand you can trust";
+animation-name: typing;
+animation-duration: 7s;
+animation-iteration-count: unset;
+}
+@keyframes typing{
+0%{content:"A|"}
+4%{content:"A b|"}
+8%{content:"A br|"}
+12%{content:"A bra|"}
+16%{content:"A bran|"}
+20%{content:"A brand|"}
+24%{content:"A brand y|"}
+28%{content:"A brand yo|"}
+32%{content:"A brand you|"}
+36%{content:"A brand you c|"}
+40%{content:"A brand you ca|"}
+44%{content:"A brand you can|"}
+48%{content:"A brand you can t|"}
+52%{content:"A brand you can tr|"}
+56%{content:"A brand you can tru|"}
+60%{content:"A brand you can trus|"}
+64%{content:"A brand you can trust|"}
+68%{content:"A brand you can trust|"}
 
 
-      /***************** Screen 1250px to 1090px  *******************/
+}
+.test::before{
+content: "";
+width: 140px;
+height: 2px;
+background-color: #fff;
+position: absolute;
+top: 100%;
+left: 0%;
+margin-top: 10px;
 
-    
-      @media screen and (min-width: 1090px) and (max-width: 1250px) {
-    
-        .main-home h1 {
-            width: 345px;
-           left: 745px;
-           top: 375px;
-           font-size: 25px;
-             }
-            .main-home h6
-             {
-              left: 750px;
-              top: 430px;
-            }
-          
-                
-        .under-line{
-        top: 53%;
-        }
-        .showClollect
-        {
-                left: 750px;
-                top: 500px;
-        }
+}
 
-        .myVideo
-        {
-             width: 1100px;
-            height: 650px;
+.showClollect{
+text-decoration: none;
+color: #000;
+background-color: #fff;
+padding: 10px 1px;
+border-radius: 20px;
+font-weight: 500;
+position: relative;
+left: 935px;
+top: 561px;
+width: 240px;
+overflow: hidden;
 
-        }        
-        
-        
-        
-        }
+}
+.show{
+text-decoration: none;
+color: #000;
+background-color: #fff;
+padding: 10px 20px;
+border-radius: 20px;
 
 
-        
-      /***************** Screen 1250px to 1090px  *******************/
+}
+.show span {
+font-weight: 600;
+}
+.show>i ,  .layer-button>i {
+padding-left: 10px;
+}
+.layer-button {
+background-color: rgba(0, 0, 0, 0.6);
+width: 100%;
+height: 100%;
+visibility: hidden;
+border-radius: 20px;
+position: absolute;
+top: 0;
+color: #fff;
+left: -100%;
+transition: all .7s;
+font-weight: 600;
+padding: 10px 20px;
 
-    
-      @media screen and (min-width: 970px ) and (max-width: 1090px) {
-    
-        .main-home h1 {
-            width: auto;
-           left: 660px;
-           top: 375px;
-           font-size: 23px;
-              }
-            .main-home h6
-             {
-              left: 660px;
-              top: 420px;
-            }
-          
-                
-        .under-line{
-        top: 53%;
-        }
-        .showClollect
-        {
-                left: 660px;
 
-                top: 490px;
-        }
+}
+.showClollect:hover .layer-button{
+background-color:  #D6A152;
+visibility: visible;
+left: 0;
+}
 
-        .myVideo
-        {
-             width: 980px;
-            height: 630px;
+/* start section video*/
 
-        }        
-        
-        
-        
-        }
+.myVideo{
+position: absolute;
+width: 1350px;
+height: 750px;
+left: -14px;
+top: 3px;
 
- 
-              /***************** Screen 970px to 760px  *******************/
 
-        @media screen and (min-width: 875px ) and (max-width: 970px) {
-    
-            .main-home h6 {
+}
+
+.Msg {
+width: 50px;
+height:50px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgba(214, 161, 82, 1);
+position: absolute;
+bottom:4%;
+right:2%;
+background-color: #fff;
+font-size: 30px;
+border-radius: 50%;
+cursor: pointer;
+transition: all .5s;
+}
+.viaMsg{
+font-size: 18px;
+line-height: 1;
+color: #000;
+display: none;
+}
+.Msg:hover{
+
+width: 115px;
+height: 115px;
+border-radius: 74.5px 0px 74.5px 74.5px;
+
+}
+.Msg:hover .viaMsg{
+display: flex;
+}
+.fa-whatsapp{
+font-size: 2.5rem !important;
+}
+.MsgContent{
+text-decoration: none;
+}
+.sendMsg{
+color: #D6A152;
+}
+
+
+
+
+
+
+/***************** media query *******************/
+
+/***************** Screen 1590px to 1250px  *******************/
+
+
+@media screen and (min-width: 1250px) and (max-width: 1590px) {
+
+.main-home h1 {
+width: 390px;
+left: 860px;
+top: 345px;
+font-size: 27px;
+}
+.main-home h6
+{
+left: 860px;
+top: 400px;
+}
+
+.under-line{
+top: 53%;
+}
+.showClollect{
+
+
+left: 860px;
+
+top: 480px;
+
+}
+
+.myVideo{
+position: absolute;
+width: 1240px;
+left: -14px;
+height: 90%;
+}        
+
+
+
+}
+
+
+/***************** Screen 1250px to 1090px  *******************/
+
+
+@media screen and (min-width: 1090px) and (max-width: 1250px) {
+
+.main-home h1 {
+width: 345px;
+left: 745px;
+top: 375px;
+font-size: 25px;
+}
+.main-home h6
+{
+left: 750px;
+top: 430px;
+}
+
+
+.under-line{
+top: 53%;
+}
+.showClollect
+{
+left: 750px;
+top: 500px;
+}
+
+.myVideo
+{
+width: 1100px;
+height: 620px;
+
+}        
+
+
+
+}
+
+
+
+/***************** Screen 1250px to 1090px  *******************/
+
+
+@media screen and (min-width: 970px ) and (max-width: 1090px) {
+
+.main-home h1 {
+width: auto;
+left: 660px;
+top: 375px;
+font-size: 23px;
+}
+.main-home h6
+{
+left: 660px;
+top: 420px;
+}
+
+
+.under-line{
+top: 53%;
+}
+.showClollect
+{
+left: 660px;
+
+top: 490px;
+}
+
+.myVideo
+{
+width: 980px;
+height: 630px;
+
+}        
+
+
+
+}
+
+
+/***************** Screen 970px to 760px  *******************/
+
+@media screen and (min-width: 875px ) and (max-width: 970px) {
+
+.main-home h6 {
+
+left: 585px;
+font-size: 22px;                 
+top: 420px;
+
+}
+
+.main-home h1 {
+width: 290px;
+left: 585px;
+font-size: 20px;
+top: 380px;
+
+}
+
+
+.under-line{
+top: 53%;
+}
+
+
+
+.showClollect{
+left: 585px;
+top: 485px;
+
+}
+
+.myVideo{
+width: 870px;
+left: -14px;
+height: 630px;
+}        
+
+
+
+}
+
+/***************** Screen 970px to 760px  *******************/
+
+@media screen and (min-width:780px ) and (max-width: 875px) {
+
+.main-home h1 {
+width: auto;
+left: 430px;
+top: 375px;
+font-size: 20px;
+}
+
+.main-home h6{
+left: 430px;
+top: 420px;
+}
+.under-line{
+top: 53%;
+}
+.showClollect{
+left: 430px;
+
+top: 490px;
+}
+.myVideo{
+width: 800px;
+height: 630px;
+
+}        
+.viaMsg{
+  font-size: 16px;
+}
+
+
+
+}
+
+/***************** Screen  760px  *******************/
+
+
+@media screen  and (max-width: 780px) {
+
+.main-home h1 {
+width: fit-content;
+left: 140px;
+font-size: 18px;
+top: 250px;
+}
+
+.main-home h6 {
+
+left:140px;
+font-size: 24px;                 
+top: 290px;
+
+}
+
+
+.under-line{
+top: 53%;
+}
+.myVideo {
+  width: 90%;
+  left: -14px;
+  height: 92%;
+}
+
+
+.showClollect{
+left:140px;
+top: 360px;
+
+
+padding: 5px 5px;
+
+font-size: 15px;
+}
+
+.Msg{
+  bottom: 14%;
+  right: 6%;
+}
+.viaMsg{
+  font-size: 16px;
+}
+
+
+}
+
   
-                left: 585px;
-                font-size: 22px;                 
-                top: 420px;
-
-               }
-
-               .main-home h1 {
-                  width: 290px;
-                 left: 585px;
-                  font-size: 20px;
-                 top: 380px;
-
-                  }
-          
-      
-                  .under-line{
-                      top: 53%;
-                  }
-
-
-      
-                  .showClollect{
-                    left: 585px;
-                    top: 485px;
-          
-          }
-
-      .myVideo{
-           width: 870px;
-           left: -14px;
-       }        
-      
-      
-      
-      }
-
-                   /***************** Screen 970px to 760px  *******************/
-
-                   @media screen and (min-width:780px ) and (max-width: 875px) {
-         
-                    .main-home h1 {
-                        width: auto;
-                       left: 500px;
-                       top: 375px;
-                       font-size: 20px;
-                          }
-                        .main-home h6
-                         {
-                          left: 500px;
-                          top: 420px;
-                        }
-                      
-                            
-                    .under-line{
-                    top: 53%;
-                    }
-                    .showClollect
-                    {
-                            left: 500px;
-            
-                            top: 490px;
-                    }
-            
-                    .myVideo
-                    {
-                         width: 800px;
-                        height: 630px;
-            
-                    }        
-                    
-                    
-              
-              
-              }
-             
-                                /***************** Screen  760px  *******************/
-
-             
-              @media screen  and (max-width: 780px) {
-    
-                .main-home h1 {
-                    width: 210px;
-                   left: 550px;
-                    font-size: 15px;
-                   top: 250px;
-                     }
-            
-                .main-home h6 {
-      
-                    left: 550px;
-                    font-size: 22px;                 
-                    top: 290px;
-    
-                   }
-    
-          
-                      .under-line{
-                          top: 53%;
-                      }
-    
-    
-          
-                      .showClollect{
-                        left: 550px;
-                        top: 360px;
-              
-                     
-                        padding: 5px 5px;
-                     
-                        width: 225px;
-                        font-size: 15px;
-               }
-    
-          .myVideo{
-               width: 100%;
-               left: -14px;
-               height: auto;
-           }        
-          
-          
-          
-          }
-    
