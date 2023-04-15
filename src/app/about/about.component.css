@@ -1,11 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Inter:wght@700&family=Poppins:wght@700&family=Yeseva+One&display=swap');
+
 *{
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
 }
-
-
 .about{
 height: auto;/*1113px */
 width: 100%;
@@ -17,14 +17,10 @@ position: relative;
 overflow: hidden;
 
 }
-
-
 .about{
   position: absolute;
   inset: 0; 
 }
-
-
 .layer{
 position: absolute;
 inset: 0;
@@ -70,30 +66,22 @@ left: 37%;
   
   transform: rotate(90deg);
 }
- 
 /** start left side **/
-
-.main
-{
+.main{
    position: absolute;
   top: 35%;
   left: 10%;
- }
-
-.left-side
-{
+}
+.left-side{
    padding: 30px;
   border: 2px solid rgba(255, 255, 255, 1);
 	transform: skew(-7deg,-2deg);
 
   
- }
-
-
-.left-side p
-{
+}
+.left-side p{
  
-  /* font-family: 'Inder'; */
+  font-family: 'Inder';
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -103,20 +91,15 @@ left: 37%;
  
   
 }
-
-.right-side img
-{
+.right-side img{
  width: 100%;
 }
-
-.icons
-{
+.icons{
    width: 100%;
   text-align: center;
   margin-top: 20px;
 }
-.icons a 
-{
+.icons a {
   text-decoration: none;
   font-size: 29px;
   color: #fff;
@@ -127,9 +110,7 @@ left: 37%;
    border-radius: 50%;
    transition: all 8.s;
 }
- 
-.underline
-{
+.underline{
   background-color: #fff;
   width: 10%;
   height: .1px;
@@ -219,7 +200,7 @@ left: 37%;
  
 .left-side
 {
-   padding: 17px;
+   padding: 12px;
  	transform: skew(-8deg,-3deg);
  }
 

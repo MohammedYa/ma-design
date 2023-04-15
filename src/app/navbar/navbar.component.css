@@ -1,8 +1,5 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Changa&family=Inter:wght@700&family=Poppins:wght@300&display=swap');
-
-
-
 .navbar{
     display: flex;
     justify-content: flex-start;
@@ -106,7 +103,6 @@ top: -14.6458740234375px;
 .links i{
     display: none;
 }
-
 @media screen and (min-width: 991px) and (max-width: 1200px) {
 
 .logo{
