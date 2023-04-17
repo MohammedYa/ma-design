@@ -183,30 +183,23 @@ transform: translate(-6%,-23%);
     left: -30%;
 }
 }
-@media screen and (min-width: 750px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 .contact{
 height: 100vh;
 }
 .contact-item .item1{
-    transform: translate(4%,-64%);
-
-}
-.contact-item .item2{
-
-transform: translate(38%,-141%);
-padding: 70px;
+    transform:  translate(30%,-87%);
 
 
 }
-.contact-item .item2 img{
-    width: 70% !important;
-}
+
+
 .location{
     line-height: 2.5;
     font-size: 17.5px;
 }
 .item1 ul li a{
-margin-left: 13px;
+margin-left: 16px;
 }
 .line{
     left: -37%;
@@ -214,44 +207,30 @@ margin-left: 13px;
 
 
 }
-@media screen and (min-width:500px) and (max-width: 750px) {
-.contact{
-  height: 145vh;
-}
+@media screen and (min-width:500px) and (max-width: 768px) {
+
 .contact-item .item1{
-    transform: translate(4%,-52%);
+    transform: translate(3%,-73%);
 
-}
-.contact-item .item2{
-    transform: translate(10%,-64%);
-
-}
-.contact-item .item2 img{
-    width: 75% !important;
 }
 .location{
     line-height: 2.5;
-    font-size: 14.5px;
-}
-.item1 ul li a{
-margin-left: 13px;
+    font-size: 15.5px;
 }
 .line{
-    left: -66%;
+    display: none;
+}
+.sectionline{
+transform: translate(7%,116%);
 }
 }
 @media screen and (min-width:390px) and (max-width: 499px) {
-.contact{
-  height: 135vh;
-}
+
 .contact-item .item1{
     transform: translate(6%,-52%);
 
 }
-.contact-item .item2{
-    transform: translate(0%,-62%);
 
-}
 .location{
     line-height: 2.5;
     font-size: 11.5px;
@@ -260,6 +239,10 @@ margin-left: 13px;
 margin-left: 13px;
 }
 .line{
-    left: -66%;
+   display: none;
 }
+.sectionline{
+    font-size: 35px;
+    transform: translate(10%,106%);
+    }
 }
