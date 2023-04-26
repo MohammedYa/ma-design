@@ -74,7 +74,7 @@ left: 37%;
 }
 .left-side{
    padding: 30px;
-  border: 2px solid rgba(255, 255, 255, 1);
+  border: 2px solid rgb(214,161,82);
 	transform: skew(-7deg,-2deg);
 
   
@@ -237,7 +237,7 @@ left: 37%;
 
 
 /*** from 768px to End ***/
-@media screen  and (max-width: 768px) {
+@media screen  and (min-width: 500px)  and (max-width: 768px) {
 
   .right-side img
 {
@@ -252,22 +252,86 @@ display: none;
 {
 
 font-size: 35px;
-top: 9%;
+top: 11%;
+left: 30%;
+
+}
+.main
+{
+   top: 30%;
+  left: 10%;
+ }
+
+.left-side
+{
+  width: 85%;
+   padding: 26px;
+   margin-left:20px;
+  transform: skew(0deg,0deg);
+
+  
+ }
+
+
+.left-side p
+{
+  font-size: 20px;
+  line-height: 22px; 
+}
+
+.icons
+{
+
+  margin-top: 40px;
+}
+.icons a 
+{
+   font-size: 22px;
+   padding: 6px 12px;
+ 
+  
+}
+ 
+.underline
+{
+   width: 25%;
+   margin:22px auto;
+   height: .1px;
+ }
+
+}
+@media screen    and (max-width: 500px) {
+.about{
+}
+.right-side img
+{
+display: none;
+}
+
+.line
+{
+  display: none;
+}
+.sectionline
+{
+
+font-size: 30px;
+top:11%;
 left: 30%;
 
 }
 .main
 {
    top: 20%;
-  left: 10%;
+  left: 5%;
  }
 
 .left-side
 {
-  width: 70%;
+  width: 82%;
    padding: 26px;
    margin-left:20px;
-  	transform: skew(-10deg,-5deg);
+  transform: skew(0deg,0deg);
 
   
  }
@@ -282,7 +346,7 @@ left: 30%;
 .icons
 {
 
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .icons a 
 {
