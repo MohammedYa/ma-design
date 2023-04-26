@@ -164,7 +164,7 @@ transform: matrix(0.61, -0.79, 0.78, 0.62, 0, 0);
 
 
 
-@media screen and (min-width: 991px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 
 .contact-item .item1{
     transform: translate(4%,-16%);
@@ -172,28 +172,35 @@ transform: matrix(0.61, -0.79, 0.78, 0.62, 0, 0);
 }
 .contact-item .item2{
 
-transform: translate(-6%,-23%);
+transform: translate(-27%,-27%);
 
 
 }
 .contact-item .item2 img{
-    width: 120% !important;
+    width: 130% !important;
 }
 .line{
     left: -30%;
 }
 }
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 .contact{
 height: 100vh;
 }
 .contact-item .item1{
-    transform:  translate(30%,-87%);
+    transform:  translate(3%,-52%);
 
 
 }
+.contact-item .item2{
+    transform:  translate(50%,-157%);
 
 
+}
+.contact-item .item2 img{
+
+width: auto !important;
+}
 .location{
     line-height: 2.5;
     font-size: 17.5px;
@@ -208,10 +215,20 @@ margin-left: 16px;
 
 }
 @media screen and (min-width:500px) and (max-width: 768px) {
-
+.contact{
+    height: 140vh;
+}
 .contact-item .item1{
-    transform: translate(3%,-73%);
+    transform: translate(1%,-78%);
 
+}
+.contact .item2{
+    margin: auto;
+    transform: translate(1%,-78%);
+
+}
+.contact .item2 img{
+    width: 90% !important;
 }
 .location{
     line-height: 2.5;
@@ -224,13 +241,19 @@ margin-left: 16px;
 transform: translate(7%,116%);
 }
 }
-@media screen and (min-width:390px) and (max-width: 499px) {
-
+@media screen and (max-width: 499px) {
+.contact{
+    height: 140vh;
+  
+}
 .contact-item .item1{
-    transform: translate(6%,-52%);
+    transform: translate(2%,-74%);
 
 }
+.contact .item2{
+    transform: translate(0%,-82%);
 
+}
 .location{
     line-height: 2.5;
     font-size: 11.5px;
@@ -246,3 +269,4 @@ margin-left: 13px;
     transform: translate(10%,106%);
     }
 }
+
