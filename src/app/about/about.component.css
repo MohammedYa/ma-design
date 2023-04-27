@@ -239,11 +239,19 @@ left: 37%;
 /*** from 768px to End ***/
 @media screen  and (min-width: 500px)  and (max-width: 768px) {
 
-  .right-side img
+ .about
+ {
+  overflow: auto;
+ }
+.right-side 
 {
-display: none;
+  margin-top: 20px;
+  width: 100%;
 }
-
+.layer
+{
+   height: 160vh;
+}
 .line
 {
   display: none;
@@ -300,12 +308,23 @@ left: 30%;
  }
 
 }
+
+
 @media screen    and (max-width: 500px) {
  
-.right-side img
-{
-display: none;
-}
+  .about
+  {
+   overflow: auto;
+  }
+ .right-side 
+ {
+   margin-top: 20px;
+   width: 100%;
+ }
+ .layer
+ {
+    height: 145vh;
+ }
 
 .line
 {
@@ -331,8 +350,7 @@ left: 30%;
    padding: 26px;
    margin-left:20px;
   transform: skew(0deg,0deg);
-
-  
+  margin-top: 10px;
  }
 
 
