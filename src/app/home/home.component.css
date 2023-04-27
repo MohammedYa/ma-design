@@ -107,7 +107,7 @@ left: 935px;
 top: 561px;
 width: 240px;
 overflow: hidden;
-
+ 
 }
 .show{
 text-decoration: none;
@@ -410,7 +410,7 @@ height: 630px;
 /***************** Screen  760px  *******************/
 
 
-@media screen  and (max-width: 780px) {
+@media screen  and (max-width: 780px) and  (min-width: 400px) {
 
 .main-home h1 {
 width: fit-content;
@@ -460,3 +460,52 @@ font-size: 15px;
 }
 
   
+@media screen  and   (max-width: 400px) {
+
+  .main-home h1 {
+    left:125px;
+    font-size: 15px;
+  top: 230px;
+  }
+  
+  .main-home h6 {
+  
+  left:125px;
+  font-size: 21px;                 
+  top: 285px;
+  
+  }
+  
+  
+  .under-line{
+  top: 53%;
+  }
+  .myVideo {
+    width: 90%;
+    left: -14px;
+    height: 92%;
+  }
+  
+  
+  .showClollect{
+  left:125px;
+  top: 360px;
+
+  padding: 5px 1px;
+  width: 220px;
+   font-size: 15px;
+  }
+ 
+  
+  .Msg{
+    bottom: 14%;
+    right: 6%;
+  }
+  .viaMsg{
+    font-size: 16px;
+  }
+  
+  
+  }
+  
+    

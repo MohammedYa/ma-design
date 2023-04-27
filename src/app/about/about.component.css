@@ -74,8 +74,8 @@ left: 37%;
 }
 .left-side{
    padding: 30px;
-  border: 2px solid rgb(214,161,82);
-	transform: skew(-7deg,-2deg);
+   border: 2px solid #FFFFFF;
+   transform: skew(-7deg,-2deg);
 
   
 }
@@ -301,8 +301,7 @@ left: 30%;
 
 }
 @media screen    and (max-width: 500px) {
-.about{
-}
+ 
 .right-side img
 {
 display: none;
