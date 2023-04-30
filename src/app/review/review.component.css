@@ -171,3 +171,157 @@ background: linear-gradient(91.45deg, rgba(255, 255, 255, 0.7) 1.22%, rgba(2, 7,
 opacity: 0.09;
 transform: matrix(0.61, -0.79, 0.78, 0.62, 0, 0);
 }
+
+
+
+
+/***************** Screen 992px to 1250px   *******************/
+
+
+@media screen and (min-width: 992px) and (max-width: 1250px) {
+.contact{
+    height: 530vh;
+}
+.container{
+    margin: auto !important;
+    
+   max-width: 992px;
+}
+.item{
+    margin: 0px 15px;
+    width: 320px;
+
+}
+
+.inside{
+    height: 515px;
+}
+
+.spicalInsde{
+    height: 732px;
+}
+}
+
+
+
+/***************** Screen 768px to 992px  *******************/
+
+
+@media screen and (min-width: 768px ) and (max-width: 992px) {
+
+    .contact{
+        height: 717vh;
+    }
+    .container{
+        margin: auto !important;
+        
+       max-width: 992px;
+    }
+    .col-md-4{
+        width: 42% !important;
+        margin: 0px 30px;
+    }
+    .item{
+        margin: 0px 15px;
+        width: 100%;
+    
+    }
+    
+    .inside{
+        height: 515px;
+    }
+    
+    .spicalInsde{
+        height: 732px;
+    }
+
+
+}
+
+
+
+
+/***************** Screen 500px to 768px  *******************/
+
+@media screen and (min-width:500px ) and (max-width: 768px) {
+
+.contact{
+    height: 1362vh;
+}
+.container{
+    margin: auto !important;
+    
+    max-width: 992px;
+}
+.col-md-4{
+    width: 100% !important;
+    margin: 0px 30px;
+}
+.item{
+    margin: 0px 15px;
+    width: 85%;
+
+}
+
+.inside{
+    height: 515px;
+}
+
+.spicalInsde{
+    height: 732px;
+}
+
+.contact-item{
+    margin-top: 100px;
+}
+.sectionline {
+
+font-size: 37px;
+transform: translate(10%,108%);
+}
+}
+
+/***************** Screen  500px  *******************/
+
+
+
+
+@media screen  and   (max-width: 500px) {
+    .contact{
+        height: 1545vh;
+    }
+    .container{
+        margin: auto !important;
+        
+        max-width: 992px;
+    }
+    .col-md-4{
+        width: 100% !important;
+        margin: 0px 30px;
+    }
+    .item{
+        margin: 0px 15px;
+        width: 85%;
+    
+    }
+    
+    .inside{
+        height: 515px;
+    }
+    
+    .spicalInsde{
+        height: 732px;
+    }
+    
+    .contact-item{
+        margin-top: 100px;
+    }
+    .sectionline {
+    
+    font-size: 28px;
+    transform: translate(13%,108%);
+    }
+
+}
+
+    
